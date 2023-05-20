@@ -20,8 +20,11 @@ Vue.js: framework JavaScript progressivo para a construção de interfaces de us
 Permitir o gerenciamento eficiente dos funcionários de uma empresa. Através da API, é possível realizar as seguintes operações:
 
 Adicionar um novo funcionário, fornecendo as informações necessárias como nome, departamento e data de registro.
+
 Recuperar as informações de um funcionário específico, incluindo seus detalhes pessoais.
+
 Atualizar as informações de um funcionário, como seu departamento ou data de registro.
+
 Excluir um funcionário do sistema.
 
 
