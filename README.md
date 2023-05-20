@@ -6,9 +6,13 @@ Este projeto consiste em uma aplicação para o gerenciamento de funcionários e
 #  ⚙️ Tecnologias Utilizadas
 
 Django: framework web em Python que facilita o desenvolvimento rápido e eficiente de aplicações web.
+
 Django Rest Framework: uma extensão do Django que fornece ferramentas e funcionalidades adicionais para a construção de APIs RESTful.
+
 MongoDB: um banco de dados NoSQL que oferece flexibilidade e escalabilidade para armazenar os dados da aplicação.
+
 MongoDB Atlas: plataforma de hospedagem de bancos de dados MongoDB gerenciada pela MongoDB.
+
 Vue.js: framework JavaScript progressivo para a construção de interfaces de usuário interativas.
 
 #  📋 Objetivo da Aplicação
