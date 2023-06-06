@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from register.models import Pessoa
+from register.models import Employees
 
 
-class PessoaSerializer(serializers.ModelSerializer):
+class EmployeeSerializer(serializers.ModelSerializer):
     class Meta:
-        model=Pessoa
+        model=Employees 
         fields = '__all__'

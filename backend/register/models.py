@@ -1,7 +1,8 @@
 from django.db import models
 from djongo import models as djmodels
 
-class Pessoa(models.Model):
+class Employees(models.Model):
+    EmployeeId = models.AutoField(primary_key=True)
     registro = models.CharField(max_length=25, blank=True, null=True)
     nome = models.CharField(max_length=150)
     departamento = models.CharField(max_length=30,)
