@@ -28,7 +28,7 @@ Atualizar as informações de um funcionário, como seu departamento ou data de 
 Excluir um funcionário do sistema.
 
 
-💻 Ambiente de Desenvolvimento
+#  💻 Ambiente de Desenvolvimento
 
 Para desenvolver e executar a aplicação, é necessário ter o seguinte ambiente configurado:
 
@@ -37,44 +37,67 @@ Django 3.2 ou superior
 Django Rest Framework 3.12 ou superior
 Vue.js 2.6 ou superior
 
-🔧 Instalação e Execução
+#  🔧 Instalação e Execução
 Siga as instruções abaixo para instalar e executar a aplicação:
 
 Clone o repositório do projeto do GitHub: [URL do repositório]
+
 Acesse o diretório raiz do projeto.
+
 Configuração do Backend (API):
+
 Crie um ambiente virtual para isolar as dependências do projeto (opcional, mas recomendado).
+
 Ative o ambiente virtual.
+
 Instale as dependências do projeto usando o comando pip install -r requirements.txt.
+
 Execute as migrações do banco de dados usando o comando python manage.py migrate.
+
 Inicie o servidor do backend usando o comando python manage.py runserver.
+
 Configuração do Frontend:
+
 Acesse o diretório frontend dentro do diretório raiz do projeto.
+
 Instale as dependências do frontend usando o comando npm install.
+
 Inicie o servidor do frontend usando o comando npm run serve.
+
 Acesse a aplicação no navegador através do seguinte endereço: http://localhost:8080.
 
-📝 Práticas de Código Limpo
+#  📝 Práticas de Código Limpo
 
 Durante o desenvolvimento da aplicação, foram aplicadas as seguintes práticas de código limpo:
 
 Nomes significativos de variáveis, funções e classes.
+
 Organização e estruturação adequada do código.
+
 Divisão do código em módulos reutilizáveis e de fácil manutenção.
 
-✅ Testes Automatizados
+#  ✅ Testes Automatizados
+
 A aplicação possui testes automatizados para garantir a qualidade e o funcionamento correto das funcionalidades. Os testes abrangem as principais operações da API, como criação, leitura, atualização e exclusão de funcionários.
 
-🤝 Contribuição para o Projeto
+#  🤝 Contribuição para o Projeto
+
 Caso deseje contribuir para o projeto, siga os passos abaixo:
 
 Faça um fork do repositório do projeto.
+
 Crie um branch para a sua nova feature ou correção.
+
 Faça as modificações necessárias.
+
 Realize os testes unitários para garantir o funcionamento correto.
+
 Faça um push das suas alterações para o seu repositório fork.
+
 Abra um Pull Request no repositório original, descrevendo as alterações realizadas.
-📌 Padrão de Projeto de Software
+
+#  📌 Padrão de Projeto de Software
+
 Para este projeto, foi aplicado o padrão de projeto MVC (Model-View-Controller) para separação das responsabilidades. O Django facilita a implementação desse padrão, onde os modelos (model) são responsáveis pela definição dos dados e regras de negócio, as views (controller) tratam das requisições e respostas da API, e os templates (view) cuidam da apresentação dos dados para o usuário.
 
 
