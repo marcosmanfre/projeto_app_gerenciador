@@ -1,3 +1,8 @@
 from django.contrib import admin
+from register.models import Employees
 
-# Register your models here.
+@admin.register(Employees)
+class PessoaAdmin(admin.ModelAdmin):
+    list_display = ('EmployeeId', 'EmployeeName', 'Department', 'DateOfJoining')
+    list_filter = ('Department',)
+    search_fields = ('EmployeeName', 'Department')
