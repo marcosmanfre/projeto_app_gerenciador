@@ -20,7 +20,7 @@ export default {
     </h1>
 
     <SidebarLink to="/" icon="fas fa-home">Home</SidebarLink>  
-    <SidebarLink to="/dashboard" icon="fas fa-users">Cadastro</SidebarLink>
+    <SidebarLink to="/cadastro" icon="fas fa-users">Cadastro</SidebarLink>
 
    <!--  <SidebarLink to="/secao" icon="fas fa-columns">Seção</SidebarLink>
 
