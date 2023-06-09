@@ -3,8 +3,8 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from django.http.response import JsonResponse
 
-from register.models import Employees, Pessoa
-from register.serializers import EmployeeSerializer,  PessoaSerializer
+from register.models import Pessoa
+from register.serializers import PessoaSerializer
 
 from django.core.files.storage import default_storage
 
