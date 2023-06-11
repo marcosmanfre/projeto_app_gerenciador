@@ -122,11 +122,19 @@ O Django facilita a implementação desse padrão, onde os modelos (model) são 
 
 #  📌 Imagens da aplicação em funcionamento
 
+![image](https://github.com/marcosmanfre/projeto_app_gerenciador/assets/76493851/5b655e70-09bf-40c5-8d3f-f0fbe1f35771)
 
-image.png
+![image](https://github.com/marcosmanfre/projeto_app_gerenciador/assets/76493851/2eca0b8c-0018-4b4a-ae40-7bb1e6f8f8f0)
 
-image.png
+![image](https://github.com/marcosmanfre/projeto_app_gerenciador/assets/76493851/c53f3cfb-a1ea-437c-bc12-4158e0082b5f)
 
-image.png
+![image](https://github.com/marcosmanfre/projeto_app_gerenciador/assets/76493851/677db714-530c-422a-8c72-b81779e47718)
+
+![image](https://github.com/marcosmanfre/projeto_app_gerenciador/assets/76493851/5e4f2916-036d-4d5e-b6a3-34d2b54db402)
+
+![image](https://github.com/marcosmanfre/projeto_app_gerenciador/assets/76493851/2243ac73-a2ad-4861-bd9b-d8f0397678de)
+
+![image](https://github.com/marcosmanfre/projeto_app_gerenciador/assets/76493851/37181fc5-a7c8-487f-83a0-ef8fe18dd966)
+
 
 Desenvolvido por [Marcos Manfré](https://www.linkedin.com/in/marcosmanfre/) 
