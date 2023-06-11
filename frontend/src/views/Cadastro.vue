@@ -7,7 +7,7 @@
         <div class="card-body col-md">
 <div class="card-body">
 <button type="button"
-class="btn btn-primary m-2 fload-end"
+class="btn btn-primary m-2 fload-end btn-lg"
 data-bs-toggle="modal"
 data-bs-target="#exampleModal"
 @click="addClick()">
@@ -130,11 +130,12 @@ data-bs-target="#exampleModal"
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 ></button>
-  
-              <form class="row g-3">
-              <div class="modal-body">                
-                <div class="row">
-       
+                 </div>
+           <div class="container-fluid">
+              <form class="row g-3">                
+              <div class="modal-body">           
+                
+              <div class="col-md-9">
                     <div class="input-group mb-3">
                       <span class="input-group-text">Registro</span>
                       <input
@@ -146,14 +147,14 @@ data-bs-target="#exampleModal"
                       />
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-9">
                     <div class="input-group mb-3">
                       <span class="input-group-text">Nome</span>
                       <input type="text" class="form-control" v-model="EmployeeName" required
                         id="needs-validation" />
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-9">
                     <div class="input-group mb-3">
                       <span class="input-group-text">Departamento</span>
                       <select class="form-select" v-model="Department">
@@ -167,9 +168,9 @@ data-bs-target="#exampleModal"
                          </select>
                     </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-3">
+                
+
+                  <div class="col-md-9">
                     <div class="input-group mb-3">
                       <span class="input-group-text">Cargo</span>
                       <select class="form-select" v-model="Role">
@@ -181,9 +182,9 @@ data-bs-target="#exampleModal"
                         <option value="Estagiário">Estagiário</option>
                       </select>
                     </div>
-                  </div>
+            </div>
 
-                  <div class="col-md-6">
+                  <div class="col-md-9">
                     <div class="input-group mb-3">
                       <span class="input-group-text">Data de Cadastro</span>
                       <input
@@ -191,8 +192,8 @@ data-bs-target="#exampleModal"
                         class="form-control"
                         v-model="DateOfJoining"
                       />
+                
                     </div>
-              
                 
                   </div>
                 </div>
@@ -204,7 +205,7 @@ data-bs-target="#exampleModal"
                   type="button"
                   @click="createClick()"
                   v-if="EmployeeId == 0"
-                  class="btn btn-primary"
+                  class="btn btn-primary btn-lg"
                 >
                   Inserir
                 </button>
@@ -212,12 +213,12 @@ data-bs-target="#exampleModal"
                   type="button"
                   @click="updateClick()"
                   v-if="EmployeeId != 0"
-                  class="btn btn-primary"
+                  class="btn btn-primary btn-lg"
                 >
                   Atualizar
                 </button>
               </div>
-            </div>
+           
             
           </div>
           
@@ -232,6 +233,7 @@ data-bs-target="#exampleModal"
       </div>
      
     
+  </div>
   </div>
   
 </template>

@@ -40,19 +40,37 @@ Vue.js 2.6 ou superior
 #  🔧 Instalação e Execução
 Siga as instruções abaixo para instalar e executar a aplicação:
 
-Clone o repositório do projeto do GitHub: [URL do repositório]
+Clone o repositório do projeto do GitHub: [https://github.com/marcosmanfre/projeto_app_gerenciador]
 
 Acesse o diretório raiz do projeto.
 
 Configuração do Backend (API):
 
-Crie um ambiente virtual para isolar as dependências do projeto (opcional, mas recomendado).
+Crie um ambiente virtual para isolar as dependências do projeto.
 
 Ative o ambiente virtual.
 
 Instale as dependências do projeto usando o comando pip install -r requirements.txt.
 
-Execute as migrações do banco de dados usando o comando python manage.py migrate.
+Configure as variáveis de ambiente necessárias para o banco de dados MongoDB. Você pode definir essas variáveis em um arquivo .env na pasta backend ou definir diretamente no ambiente. As variáveis necessárias são:
+
+DEBUG=True
+SECRET_KEY=##################
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'CLIENT': {
+            "host":"mongodb+srv://#######################@cluster0.gry50ln.mongodb.net/test"
+            ,"name":"######################",
+            "authMechanism":"SCRAM-SHA-1" #For atlas cloud db
+            
+        }
+
+    }
+}
+
+Execute as migrações do banco de dados usando o comando python manage.py makemigrations e python manage.py migrate.
 
 Inicie o servidor do backend usando o comando python manage.py runserver.
 
@@ -75,10 +93,6 @@ Nomes significativos de variáveis, funções e classes.
 Organização e estruturação adequada do código.
 
 Divisão do código em módulos reutilizáveis e de fácil manutenção.
-
-#  ✅ Testes Automatizados
-
-A aplicação possui testes automatizados para garantir a qualidade e o funcionamento correto das funcionalidades. Os testes abrangem as principais operações da API, como criação, leitura, atualização e exclusão de funcionários.
 
 #  🤝 Contribuição para o Projeto
 
