@@ -54,8 +54,11 @@ Instale as dependências do projeto usando o comando pip install -r requirements
 
 Configure as variáveis de ambiente necessárias para o banco de dados MongoDB. Você pode definir essas variáveis em um arquivo .env na pasta backend ou definir diretamente no ambiente. As variáveis necessárias são:
 
+````python
+```
 DEBUG=True
 SECRET_KEY=##################
+
 
 DATABASES = {
     'default': {
@@ -69,6 +72,8 @@ DATABASES = {
 
     }
 }
+```
+````
 
 Execute as migrações do banco de dados usando o comando python manage.py makemigrations e python manage.py migrate.
 
@@ -112,7 +117,16 @@ Abra um Pull Request no repositório original, descrevendo as alterações reali
 
 #  📌 Padrão de Projeto de Software
 
-Para este projeto, foi aplicado o padrão de projeto MVC (Model-View-Controller) para separação das responsabilidades. O Django facilita a implementação desse padrão, onde os modelos (model) são responsáveis pela definição dos dados e regras de negócio, as views (controller) tratam das requisições e respostas da API, e os templates (view) cuidam da apresentação dos dados para o usuário.
+Para este projeto, foi aplicado o padrão de projeto MVC (Model-View-Controller) para separação das responsabilidades. 
+O Django facilita a implementação desse padrão, onde os modelos (model) são responsáveis pela definição dos dados e regras de negócio, as views (controller) tratam das requisições e respostas da API, e os templates (view) cuidam da apresentação dos dados para o usuário.
 
+#  📌 Imagens da aplicação em funcionamento
+
+
+image.png
+
+image.png
+
+image.png
 
 Desenvolvido por [Marcos Manfré](https://www.linkedin.com/in/marcosmanfre/) 
